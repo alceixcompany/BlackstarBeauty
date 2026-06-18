@@ -147,16 +147,16 @@ const ServicesPage = () => {
       <section className="lale-dark-section py-24 sm:py-28">
         <div className="relative mx-auto max-w-7xl px-5 sm:px-7 lg:px-10">
           <div className="mx-auto max-w-3xl text-center">
-            <div className="lale-kicker bg-[rgba(6,35,31,0.56)]">
+            <div className="lale-kicker">
               İMZA BAKIMLAR
             </div>
 
-            <h2 className="mt-8 font-serif text-4xl leading-tight text-[var(--lale-ivory)] sm:text-5xl">
+            <h2 className="mt-8 font-serif text-4xl leading-tight text-[var(--dream-dark)] sm:text-5xl">
               İhtiyacınıza göre şekillenen
               <span className="block text-[var(--lale-gold)]">premium bakım seçimleri</span>
             </h2>
 
-            <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-[rgba(251,250,246,0.72)]">
+            <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-[var(--dream-text)]">
               Her bakım öncesinde sizi dinliyor, beklentinize uygun uygulama akışını
               planlıyor ve sürecin tamamında konforu korumaya odaklanıyoruz.
             </p>
@@ -169,7 +169,7 @@ const ServicesPage = () => {
               return (
                 <article
                   key={service.slug}
-                  className="lale-card-dark overflow-hidden rounded-[14px] transition-all duration-300 hover:-translate-y-1 hover:border-[rgba(212,175,55,0.42)] hover:shadow-[0_28px_90px_rgba(0,0,0,0.28)]"
+                  className="lale-card-light overflow-hidden rounded-[14px] transition-all duration-300 hover:-translate-y-1 hover:border-[rgba(212,175,55,0.42)] hover:shadow-[0_28px_90px_rgba(95,89,108,0.12)]"
                 >
                   <div className="grid md:grid-cols-[0.92fr_1.08fr]">
                     <div className="relative min-h-[280px] overflow-hidden">
@@ -180,21 +180,21 @@ const ServicesPage = () => {
                         className="object-cover transition-transform duration-700 hover:scale-[1.04]"
                         sizes="(max-width: 768px) 100vw, 40vw"
                       />
-                      <div className="absolute inset-0 bg-gradient-to-t from-[rgba(6,35,31,0.48)] via-transparent to-transparent" />
-                      <div className="absolute left-5 top-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-[rgba(6,35,31,0.78)] text-[var(--lale-gold)] shadow-sm backdrop-blur">
+                      <div className="absolute inset-0 bg-gradient-to-t from-[rgba(6,35,31,0.22)] via-transparent to-transparent" />
+                      <div className="absolute left-5 top-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-white/80 text-[var(--lale-gold)] shadow-sm backdrop-blur">
                         <Icon className="h-7 w-7" />
                       </div>
                     </div>
 
                     <div className="p-7 sm:p-8">
-                      <p className="text-xs font-medium uppercase tracking-[0.18em] text-[var(--lale-gold)]">
+                      <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--lale-gold)]">
                         Özel Bakım
                       </p>
-                      <h3 className="mt-3 font-serif text-3xl text-[var(--lale-ivory)]">
+                      <h3 className="mt-3 font-serif text-3xl text-[var(--dream-dark)]">
                         {service.title}
                       </h3>
 
-                      <p className="mt-4 text-sm leading-7 text-[rgba(251,250,246,0.68)] sm:text-base">
+                      <p className="mt-4 text-sm leading-7 text-[var(--dream-text)] sm:text-base">
                         {service.description}
                       </p>
 
@@ -202,7 +202,7 @@ const ServicesPage = () => {
                         {service.highlights.map((highlight) => (
                           <div
                             key={highlight}
-                            className="flex items-center gap-3 text-sm text-[rgba(251,250,246,0.70)]"
+                            className="flex items-center gap-3 text-sm text-[var(--dream-text)]"
                           >
                             <div className="flex h-8 w-8 items-center justify-center rounded-full bg-[rgba(212,175,55,0.12)]">
                               <FiCheck className="h-4 w-4 text-[var(--lale-gold)]" />
@@ -222,7 +222,7 @@ const ServicesPage = () => {
                         </Link>
                         <Link
                           href="/iletisim"
-                          className="lale-outline-button text-xs"
+                          className="inline-flex items-center justify-center rounded-full border border-[rgba(95,89,108,0.18)] px-6 py-3 text-xs font-medium text-[var(--dream-dark)] transition-all duration-300 hover:bg-white/70"
                         >
                           Randevu Oluştur
                         </Link>
@@ -239,16 +239,16 @@ const ServicesPage = () => {
       <section className="lale-dark-section py-24 sm:py-28">
         <div className="relative mx-auto max-w-7xl px-5 sm:px-7 lg:px-10">
           <div className="mx-auto max-w-3xl text-center">
-            <div className="lale-kicker bg-[rgba(6,35,31,0.56)]">
+            <div className="lale-kicker">
               NEDEN LALE
             </div>
 
-            <h2 className="mt-8 font-serif text-4xl leading-tight text-[var(--lale-ivory)] sm:text-5xl">
+            <h2 className="mt-8 font-serif text-4xl leading-tight text-[var(--dream-dark)] sm:text-5xl">
               Sonuçtan önce
               <span className="block text-[var(--lale-gold)]">deneyime de özen gösteriyoruz</span>
             </h2>
 
-            <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-[rgba(251,250,246,0.72)]">
+            <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-[var(--dream-text)]">
               Merkezimize gelen herkesin kendini rahat, güvende ve özel hissetmesini
               önemsiyoruz. Bu anlayış, tüm hizmetlerimizin temelini oluşturuyor.
             </p>
@@ -261,15 +261,15 @@ const ServicesPage = () => {
               return (
                 <article
                   key={value.title}
-                  className="lale-card-dark rounded-[14px] p-7"
+                  className="lale-card-light rounded-[14px] p-7 shadow-[0_16px_46px_rgba(95,89,108,0.08)]"
                 >
-                  <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-white/20 text-white shadow-inner">
+                  <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-[rgba(223,167,69,0.14)] text-[var(--lale-gold)] shadow-inner">
                     <Icon className="h-7 w-7" />
                   </div>
-                  <h3 className="mt-5 font-serif text-2xl text-[var(--lale-ivory)]">
+                  <h3 className="mt-5 font-serif text-2xl text-[var(--dream-dark)]">
                     {value.title}
                   </h3>
-                  <p className="mt-4 text-sm leading-7 text-[rgba(251,250,246,0.68)] sm:text-base">
+                  <p className="mt-4 text-sm leading-7 text-[var(--dream-text)] sm:text-base">
                     {value.description}
                   </p>
                 </article>
@@ -281,14 +281,14 @@ const ServicesPage = () => {
 
       <section className="lale-dark-section py-24 sm:py-28">
         <div className="relative mx-auto max-w-5xl px-5 text-center sm:px-7 lg:px-10">
-          <div className="lale-card-dark rounded-[14px] p-8 sm:p-10">
-            <p className="text-sm font-medium uppercase tracking-[0.18em] text-[var(--lale-gold)]">
+          <div className="lale-card-light rounded-[14px] p-8 sm:p-10 shadow-[0_24px_70px_rgba(95,89,108,0.12)]">
+            <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[var(--lale-gold)]">
               Randevu Planlama
             </p>
-            <h2 className="mt-4 font-serif text-4xl text-[var(--lale-ivory)] sm:text-5xl">
+            <h2 className="mt-4 font-serif text-4xl text-[var(--dream-dark)] sm:text-5xl">
               Size en uygun bakım planını birlikte oluşturalım
             </h2>
-            <p className="mx-auto mt-5 max-w-2xl text-base leading-8 text-[rgba(251,250,246,0.68)] sm:text-lg">
+            <p className="mx-auto mt-5 max-w-2xl text-base leading-8 text-[var(--dream-text)] sm:text-lg">
               İster ilk kez gelin ister rutininizi güçlendirmek isteyin, size en uygun
               uygulamayı birlikte belirleyelim ve keyifli bir merkez deneyimi planlayalım.
             </p>
@@ -303,7 +303,7 @@ const ServicesPage = () => {
               </Link>
               <Link
                 href="/galeri"
-                className="lale-outline-button"
+                className="inline-flex items-center justify-center rounded-full border border-[rgba(95,89,108,0.18)] px-6 py-3 text-sm font-medium text-[var(--dream-dark)] transition-all duration-300 hover:bg-white/70"
               >
                 Galeriyi İnceleyin
               </Link>

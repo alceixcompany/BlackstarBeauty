@@ -126,16 +126,16 @@ const GaleriPage = () => {
       <section className="lale-dark-section py-24 sm:py-28">
         <div className="relative mx-auto max-w-7xl px-5 sm:px-7 lg:px-10">
           <div className="mx-auto max-w-3xl text-center">
-            <div className="lale-kicker bg-[rgba(6,35,31,0.56)]">
+            <div className="lale-kicker">
               SECILI KOLEKSIYONLAR
             </div>
 
-            <h2 className="mt-8 font-serif text-4xl leading-tight text-[var(--lale-ivory)] sm:text-5xl">
+            <h2 className="mt-8 font-serif text-4xl leading-tight text-[var(--dream-dark)] sm:text-5xl">
               Gorsellerde yasayan
               <span className="block text-[var(--lale-gold)]">bakim deneyimleri</span>
             </h2>
 
-            <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-[rgba(251,250,246,0.72)]">
+            <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-[var(--dream-text)]">
               Her karede merkezimizin sakin, aydinlik ve premium atmosferini
               hissedebileceginiz bir secki hazirladik.
             </p>
@@ -147,7 +147,7 @@ const GaleriPage = () => {
               className={`rounded-full px-5 py-3 text-sm font-semibold tracking-[0.08em] transition-all ${
                 selectedCategory === 'all'
                   ? 'bg-[var(--lale-gold)] text-[var(--lale-emerald-deep)] shadow-[0_12px_30px_rgba(212,175,55,0.25)]'
-                  : 'border border-[rgba(212,175,55,0.28)] bg-[rgba(251,250,246,0.06)] text-[var(--lale-gold)] hover:bg-[rgba(212,175,55,0.10)]'
+                  : 'border border-[rgba(212,175,55,0.28)] bg-white/80 text-[var(--lale-gold)] hover:bg-[rgba(212,175,55,0.10)]'
               }`}
             >
               Tum Kareler ({galleryItems.length})
@@ -159,7 +159,7 @@ const GaleriPage = () => {
                 className={`rounded-full px-5 py-3 text-sm font-semibold tracking-[0.08em] transition-all ${
                   selectedCategory === category.id
                     ? 'bg-[var(--lale-gold)] text-[var(--lale-emerald-deep)] shadow-[0_12px_30px_rgba(212,175,55,0.25)]'
-                    : 'border border-[rgba(212,175,55,0.28)] bg-[rgba(251,250,246,0.06)] text-[var(--lale-gold)] hover:bg-[rgba(212,175,55,0.10)]'
+                    : 'border border-[rgba(212,175,55,0.28)] bg-white/80 text-[var(--lale-gold)] hover:bg-[rgba(212,175,55,0.10)]'
                 }`}
               >
                 {category.name}
@@ -169,7 +169,7 @@ const GaleriPage = () => {
 
           {featuredItems.length > 0 && selectedCategory === 'all' && (
             <div className="mt-16 grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
-              <article className="lale-card-dark overflow-hidden rounded-[14px]">
+              <article className="lale-card-light overflow-hidden rounded-[14px] shadow-[0_24px_70px_rgba(95,89,108,0.12)]">
                 <div className="grid md:grid-cols-[1.05fr_0.95fr]">
                   <div className="relative min-h-[340px]">
                     <Image
@@ -179,21 +179,21 @@ const GaleriPage = () => {
                       className="object-cover"
                       sizes="(max-width: 1024px) 100vw, 50vw"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-[rgba(6,35,31,0.40)] to-transparent" />
-                    <div className="absolute left-6 top-6 rounded-full border border-[rgba(212,175,55,0.34)] bg-[rgba(6,35,31,0.74)] px-4 py-2 text-xs font-medium tracking-[0.16em] text-[var(--lale-gold)] backdrop-blur">
+                    <div className="absolute inset-0 bg-gradient-to-t from-[rgba(6,35,31,0.20)] to-transparent" />
+                    <div className="absolute left-6 top-6 rounded-full border border-[rgba(212,175,55,0.34)] bg-white/80 px-4 py-2 text-xs font-semibold tracking-[0.16em] text-[var(--lale-gold)] backdrop-blur">
                       ONE CIKAN KARE
                     </div>
                   </div>
 
                   <div className="flex flex-col justify-between p-7 sm:p-9">
                     <div>
-                      <p className="text-xs tracking-[0.16em] text-[var(--lale-gold)]">
+                      <p className="text-xs tracking-[0.16em] text-[var(--lale-gold)] font-semibold">
                         {getCategoryName(featuredItems[0].categoryId)}
                       </p>
-                      <h3 className="mt-4 font-serif text-3xl leading-tight text-[var(--lale-ivory)]">
+                      <h3 className="mt-4 font-serif text-3xl leading-tight text-[var(--dream-dark)]">
                         {featuredItems[0].title}
                       </h3>
-                      <p className="mt-5 text-sm leading-7 text-[rgba(251,250,246,0.68)]">
+                      <p className="mt-5 text-sm leading-7 text-[var(--dream-text)]">
                         {featuredItems[0].description || 'Merkezimizin atmosferini ve uygulama detaylarini yansitan ozel bir kare.'}
                       </p>
                       {featuredItems[0].tags?.length > 0 && (
@@ -201,7 +201,7 @@ const GaleriPage = () => {
                           {featuredItems[0].tags.slice(0, 3).map((tag) => (
                             <span
                               key={tag}
-                              className="rounded-full border border-[rgba(212,175,55,0.18)] bg-[rgba(212,175,55,0.08)] px-3 py-1 text-xs text-[var(--lale-gold)]"
+                              className="rounded-full border border-[rgba(212,175,55,0.18)] bg-[rgba(212,175,55,0.08)] px-3 py-1 text-xs text-[var(--lale-gold)] font-semibold"
                             >
                               #{tag}
                             </span>
@@ -225,7 +225,7 @@ const GaleriPage = () => {
                 {featuredItems.slice(1, 3).map((item) => (
                   <article
                     key={item.id}
-                    className="lale-card-dark rounded-[14px] p-5 transition-transform duration-300 hover:-translate-y-1"
+                    className="lale-card-light rounded-[14px] p-5 transition-transform duration-300 hover:-translate-y-1 hover:shadow-[0_16px_46px_rgba(95,89,108,0.10)]"
                   >
                     <div className="flex gap-4">
                       <div className="relative h-28 w-28 shrink-0 overflow-hidden rounded-2xl bg-[rgba(251,250,246,0.06)]">
@@ -239,18 +239,18 @@ const GaleriPage = () => {
                       </div>
 
                       <div className="min-w-0 flex-1">
-                        <p className="text-xs tracking-[0.14em] text-[var(--lale-gold)]">
+                        <p className="text-xs tracking-[0.14em] text-[var(--lale-gold)] font-semibold">
                           {getCategoryName(item.categoryId)}
                         </p>
-                        <h3 className="mt-2 line-clamp-2 text-xl font-semibold text-[var(--lale-ivory)]">
+                        <h3 className="mt-2 line-clamp-2 text-xl font-semibold text-[var(--dream-dark)]">
                           {item.title}
                         </h3>
-                        <p className="mt-3 line-clamp-3 text-sm leading-7 text-[rgba(251,250,246,0.66)]">
+                        <p className="mt-3 line-clamp-3 text-sm leading-7 text-[var(--dream-text)]">
                           {item.description || 'Bakim seanslarimizdan secilen zarif ve ilham veren bir detay.'}
                         </p>
                         <button
                           onClick={() => setSelectedItem(item)}
-                          className="mt-4 inline-flex items-center gap-2 text-sm font-medium text-[var(--lale-gold)] transition-colors hover:text-[var(--lale-gold-soft)]"
+                          className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-[var(--lale-gold)] transition-colors hover:text-[var(--lale-gold-soft)]"
                         >
                           Buyuterek Gor
                           <FiArrowRight className="h-4 w-4" />
@@ -263,26 +263,26 @@ const GaleriPage = () => {
             </div>
           )}
 
-          <div className="lale-card-dark mt-16 rounded-[14px] p-6 sm:p-8">
+          <div className="lale-card-light mt-16 rounded-[14px] p-6 sm:p-8 shadow-[0_24px_70px_rgba(95,89,108,0.12)]">
             <div className="mb-8 flex flex-col gap-4 border-b border-[rgba(212,175,55,0.14)] pb-6 sm:flex-row sm:items-center sm:justify-between">
               <div>
-                <p className="text-xs font-medium uppercase tracking-[0.18em] text-[var(--lale-gold)]">
+                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--lale-gold)]">
                   Gorsel Arsiv
                 </p>
-                <h3 className="mt-2 font-serif text-3xl text-[var(--lale-ivory)]">
+                <h3 className="mt-2 font-serif text-3xl text-[var(--dream-dark)]">
                   {selectedCategory === 'all' ? 'Tum Kareler' : getCategoryName(selectedCategory)}
                 </h3>
               </div>
-              <div className="rounded-full border border-[rgba(212,175,55,0.18)] bg-[rgba(212,175,55,0.08)] px-4 py-2 text-sm text-[var(--lale-gold)]">
+              <div className="rounded-full border border-[rgba(212,175,55,0.18)] bg-[rgba(212,175,55,0.08)] px-4 py-2 text-sm text-[var(--lale-gold)] font-medium">
                 {filteredItems.length} gorsel bulundu
               </div>
             </div>
 
             {filteredItems.length === 0 ? (
-              <div className="rounded-[28px] border border-dashed border-[rgba(212,175,55,0.18)] bg-[rgba(251,250,246,0.04)] px-6 py-16 text-center">
+              <div className="rounded-[28px] border border-dashed border-[rgba(212,175,55,0.18)] bg-white/60 px-6 py-16 text-center">
                 <div className="text-5xl">🖼️</div>
-                <h3 className="mt-5 font-serif text-3xl text-[var(--lale-ivory)]">Bu koleksiyonda gorsel yok</h3>
-                <p className="mx-auto mt-4 max-w-lg text-sm leading-7 text-[rgba(251,250,246,0.68)]">
+                <h3 className="mt-5 font-serif text-3xl text-[var(--dream-dark)]">Bu koleksiyonda gorsel yok</h3>
+                <p className="mx-auto mt-4 max-w-lg text-sm leading-7 text-[var(--dream-text)]">
                   Secili kategori icin henuz gorsel eklenmemis. Dilerseniz tum karelere
                   donerek diger secimleri inceleyebilirsiniz.
                 </p>
@@ -292,13 +292,13 @@ const GaleriPage = () => {
                 {currentItems.map((item) => (
                   <article
                     key={item.id}
-                    className="group lale-card-dark overflow-hidden rounded-[14px] transition-all duration-300 hover:-translate-y-1 hover:border-[rgba(212,175,55,0.42)] hover:shadow-[0_24px_40px_rgba(0,0,0,0.24)]"
+                    className="group lale-card-light overflow-hidden rounded-[14px] transition-all duration-300 hover:-translate-y-1 hover:border-[rgba(212,175,55,0.42)] hover:shadow-[0_24px_40px_rgba(95,89,108,0.12)]"
                   >
                     <button
                       onClick={() => setSelectedItem(item)}
                       className="block w-full text-left"
                     >
-                      <div className="relative h-80 overflow-hidden bg-[rgba(251,250,246,0.06)]">
+                      <div className="relative h-80 overflow-hidden bg-white/10">
                         {item.imageUrl ? (
                           <Image
                             src={item.imageUrl}
@@ -313,17 +313,17 @@ const GaleriPage = () => {
                           </div>
                         )}
 
-                        <div className="absolute inset-0 bg-gradient-to-t from-[rgba(6,35,31,0.42)] via-transparent to-transparent opacity-90" />
-                        <div className="absolute right-5 top-5 flex h-11 w-11 items-center justify-center rounded-full bg-[rgba(6,35,31,0.78)] text-[var(--lale-gold)] shadow-sm backdrop-blur transition-transform duration-300 group-hover:scale-105">
+                        <div className="absolute inset-0 bg-gradient-to-t from-[rgba(6,35,31,0.22)] via-transparent to-transparent opacity-90" />
+                        <div className="absolute right-5 top-5 flex h-11 w-11 items-center justify-center rounded-full bg-white/80 text-[var(--lale-gold)] shadow-sm backdrop-blur transition-transform duration-300 group-hover:scale-105">
                           <FiEye className="h-5 w-5" />
                         </div>
                       </div>
 
                       <div className="p-6">
-                        <h3 className="font-serif text-2xl text-[var(--lale-ivory)]">
+                        <h3 className="font-serif text-2xl text-[var(--dream-dark)]">
                           {item.title}
                         </h3>
-                        <p className="mt-3 line-clamp-3 text-sm leading-7 text-[rgba(251,250,246,0.68)]">
+                        <p className="mt-3 line-clamp-3 text-sm leading-7 text-[var(--dream-text)]">
                           {item.description || 'Merkezimizdeki uygulamalardan secilen zarif ve ilham veren bir kare.'}
                         </p>
                         {item.tags?.length > 0 && (
@@ -331,7 +331,7 @@ const GaleriPage = () => {
                             {item.tags.slice(0, 2).map((tag) => (
                               <span
                                 key={tag}
-                                className="rounded-full border border-[rgba(212,175,55,0.18)] bg-[rgba(212,175,55,0.08)] px-3 py-1 text-xs text-[var(--lale-gold)]"
+                                className="rounded-full border border-[rgba(212,175,55,0.18)] bg-[rgba(212,175,55,0.08)] px-3 py-1 text-xs text-[var(--lale-gold)] font-medium"
                               >
                                 #{tag}
                               </span>
@@ -394,14 +394,14 @@ const GaleriPage = () => {
 
       <section className="lale-dark-section py-24 sm:py-28">
         <div className="relative mx-auto max-w-5xl px-5 text-center sm:px-7 lg:px-10">
-          <div className="lale-card-dark rounded-[14px] p-8 sm:p-10">
-            <p className="text-sm font-medium uppercase tracking-[0.18em] text-[var(--lale-gold)]">
+          <div className="lale-card-light rounded-[14px] p-8 sm:p-10 shadow-[0_24px_70px_rgba(95,89,108,0.12)]">
+            <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[var(--lale-gold)]">
               Randevu ve Bilgi
             </p>
-            <h2 className="mt-4 font-serif text-4xl text-[var(--lale-ivory)] sm:text-5xl">
+            <h2 className="mt-4 font-serif text-4xl text-[var(--dream-dark)] sm:text-5xl">
               Sizi de bu deneyimin bir parcasi olmaya davet ediyoruz
             </h2>
-            <p className="mx-auto mt-5 max-w-2xl text-base leading-8 text-[rgba(251,250,246,0.68)] sm:text-lg">
+            <p className="mx-auto mt-5 max-w-2xl text-base leading-8 text-[var(--dream-text)] sm:text-lg">
               Galeride gordugunuz uygulamalar hakkinda bilgi almak veya size uygun
               bakim planini olusturmak icin bizimle iletisime gecebilirsiniz.
             </p>
@@ -416,7 +416,7 @@ const GaleriPage = () => {
               </Link>
               <Link
                 href="/hizmetlerimiz"
-                className="lale-outline-button"
+                className="inline-flex items-center justify-center rounded-full border border-[rgba(95,89,108,0.18)] px-6 py-3 text-sm font-medium text-[var(--dream-dark)] transition-all duration-300 hover:bg-white/70"
               >
                 Hizmetleri Inceleyin
               </Link>

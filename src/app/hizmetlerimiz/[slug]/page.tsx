@@ -468,15 +468,15 @@ export default async function ServiceDetailPage({ params }: ServiceDetailPagePro
         <div className="max-w-6xl mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-[var(--lale-gold)] mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold text-[var(--dream-dark)] mb-6">
                 Hizmet Detayları
               </h2>
-              <p className="text-lg text-[var(--lale-gold)] opacity-70 mb-8 leading-relaxed">
+              <p className="text-lg text-[var(--dream-text)] mb-8 leading-relaxed">
                 {service.detailedInfo.overview}
               </p>
               
               <div className="mb-8">
-                <h3 className="text-xl font-semibold text-[var(--lale-gold)] mb-4">
+                <h3 className="text-xl font-semibold text-[var(--dream-dark)] mb-4">
                   Neden Bizi Tercih Etmelisiniz?
                 </h3>
                 <ul className="space-y-3">
@@ -487,7 +487,7 @@ export default async function ServiceDetailPage({ params }: ServiceDetailPagePro
                           <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                         </svg>
                       </div>
-                      <span className="text-[var(--lale-gold)] opacity-70">{item}</span>
+                      <span className="text-[var(--dream-text)]">{item}</span>
                     </li>
                   ))}
                 </ul>
@@ -495,17 +495,17 @@ export default async function ServiceDetailPage({ params }: ServiceDetailPagePro
             </div>
 
             <div className="space-y-6">
-              <h3 className="text-2xl font-bold text-[var(--lale-gold)]">
+              <h3 className="text-2xl font-bold text-[var(--dream-dark)]">
                 Hizmet Kapsamımız
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {service.features.map((feature, index) => (
-                  <div key={index} className="bg-[rgba(251,250,246,0.06)] p-4 rounded-lg border border-[rgba(212,175,55,0.14)]">
+                  <div key={index} className="bg-white/80 p-4 rounded-lg border border-[rgba(212,175,55,0.18)] shadow-sm">
                     <div className="flex items-center gap-3">
                       <div className="w-8 h-8 bg-[var(--lale-gold)] rounded-lg flex items-center justify-center">
                         <span className="text-[var(--lale-emerald-deep)] text-sm font-bold">{index + 1}</span>
                       </div>
-                      <span className="text-[var(--lale-gold)] opacity-85 font-medium text-sm">{feature}</span>
+                      <span className="text-[var(--dream-text)] font-semibold text-sm">{feature}</span>
                     </div>
                   </div>
                 ))}
