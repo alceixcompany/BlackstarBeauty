@@ -200,7 +200,7 @@ const References = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: '-60px' }}
                 transition={{ duration: 0.58, delay: index * 0.04, ease: 'easeOut' }}
-                className="rounded-[28px] border border-[rgba(223,167,69,0.18)] bg-white/88 p-6 shadow-[0_18px_50px_rgba(95,89,108,0.10)]"
+                className="rounded-[28px] border border-[rgba(223,167,69,0.18)] bg-white/[0.88] p-6 shadow-[0_18px_50px_rgba(95,89,108,0.10)]"
               >
                 <div className="flex items-start justify-between gap-4">
                   <div className="flex items-center gap-3">

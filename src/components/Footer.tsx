@@ -19,7 +19,7 @@ const Footer = () => {
         <div className="border-t border-[rgba(223,167,69,0.18)] py-16">
           <div className="grid gap-10 lg:grid-cols-[1.05fr_0.78fr_1.22fr_1fr] lg:gap-12">
             <div>
-              <div className="inline-flex rounded-full border border-[rgba(223,167,69,0.18)] bg-white/88 px-4 py-2 shadow-[0_12px_34px_rgba(95,89,108,0.08)]">
+              <div className="inline-flex rounded-full border border-[rgba(223,167,69,0.18)] bg-white/[0.88] px-4 py-2 shadow-[0_12px_34px_rgba(95,89,108,0.08)]">
                 <Image
                   src="/blackstar-logo.svg"
                   alt="Blackstar Beauty Center Logo"
@@ -38,21 +38,21 @@ const Footer = () => {
                   href="https://www.instagram.com/blackstarbeautyy"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex h-10 w-10 items-center justify-center rounded-full border border-[rgba(223,167,69,0.24)] bg-white/88 text-[var(--lale-gold)] transition-colors hover:bg-[rgba(223,167,69,0.10)]"
+                  className="flex h-10 w-10 items-center justify-center rounded-full border border-[rgba(223,167,69,0.24)] bg-white/[0.88] text-[var(--lale-gold)] transition-colors hover:bg-[rgba(223,167,69,0.10)]"
                   title="Instagram"
                 >
                   <FiInstagram className="h-4 w-4" />
                 </a>
                 <a
                   href="tel:+905469064334"
-                  className="flex h-10 w-10 items-center justify-center rounded-full border border-[rgba(223,167,69,0.24)] bg-white/88 text-[var(--lale-gold)] transition-colors hover:bg-[rgba(223,167,69,0.10)]"
+                  className="flex h-10 w-10 items-center justify-center rounded-full border border-[rgba(223,167,69,0.24)] bg-white/[0.88] text-[var(--lale-gold)] transition-colors hover:bg-[rgba(223,167,69,0.10)]"
                   title="Telefon"
                 >
                   <FiPhone className="h-4 w-4" />
                 </a>
                 <a
                   href="https://www.instagram.com/blackstarbeautyy"
-                  className="flex h-10 w-10 items-center justify-center rounded-full border border-[rgba(223,167,69,0.24)] bg-white/88 text-[var(--lale-gold)] transition-colors hover:bg-[rgba(223,167,69,0.10)]"
+                  className="flex h-10 w-10 items-center justify-center rounded-full border border-[rgba(223,167,69,0.24)] bg-white/[0.88] text-[var(--lale-gold)] transition-colors hover:bg-[rgba(223,167,69,0.10)]"
                   title="Instagram"
                 >
                   <FiInstagram className="h-4 w-4" />

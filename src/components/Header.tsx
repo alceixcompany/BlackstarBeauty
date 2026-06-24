@@ -67,7 +67,7 @@ const Header = () => {
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
       isScrolled 
         ? 'bg-white/90 backdrop-blur-xl shadow-[0_12px_40px_rgba(223,167,69,0.10)] border-b border-[rgba(223,167,69,0.10)]' 
-        : 'bg-white/82 backdrop-blur-xl shadow-[0_10px_34px_rgba(223,167,69,0.08)]'
+        : 'bg-white/[0.82] backdrop-blur-xl shadow-[0_10px_34px_rgba(223,167,69,0.08)]'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-20">

@@ -102,7 +102,7 @@ const News = () => {
         </div>
 
         <div className="mt-16 grid gap-8 lg:grid-cols-[1.15fr_0.85fr]">
-          <article className="overflow-hidden rounded-[32px] border border-[rgba(223,167,69,0.16)] bg-white/88 shadow-[0_24px_70px_rgba(95,89,108,0.10)]">
+          <article className="overflow-hidden rounded-[32px] border border-[rgba(223,167,69,0.16)] bg-white/[0.88] shadow-[0_24px_70px_rgba(95,89,108,0.10)]">
             <div className="grid lg:grid-cols-[1.05fr_0.95fr]">
               <div className="relative min-h-[320px]">
                 {featuredNews.imageUrl ? (
@@ -119,7 +119,7 @@ const News = () => {
                   </div>
                 )}
                 <div className="absolute inset-0 bg-gradient-to-t from-[#6f5a3b]/38 to-transparent" />
-                <div className="absolute left-6 top-6 rounded-full border border-[rgba(223,167,69,0.24)] bg-white/84 px-4 py-2 text-xs font-medium tracking-[0.16em] text-[var(--dream-dark)] backdrop-blur">
+                <div className="absolute left-6 top-6 rounded-full border border-[rgba(223,167,69,0.24)] bg-white/[0.84] px-4 py-2 text-xs font-medium tracking-[0.16em] text-[var(--dream-dark)] backdrop-blur">
                   ÖNE ÇIKAN YAZI
                 </div>
               </div>
@@ -172,7 +172,7 @@ const News = () => {
             {otherNews.map((haber) => (
               <article
                 key={haber.id}
-                className="rounded-[28px] border border-[rgba(223,167,69,0.16)] bg-white/88 p-5 shadow-[0_18px_50px_rgba(95,89,108,0.08)] transition-transform duration-300 hover:-translate-y-1"
+                className="rounded-[28px] border border-[rgba(223,167,69,0.16)] bg-white/[0.88] p-5 shadow-[0_18px_50px_rgba(95,89,108,0.08)] transition-transform duration-300 hover:-translate-y-1"
               >
                 <div className="flex gap-4">
                   <div className="relative h-28 w-28 shrink-0 overflow-hidden rounded-[18px] bg-[rgba(223,167,69,0.18)]">

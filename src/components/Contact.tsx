@@ -35,7 +35,7 @@ const Contact = () => {
             <div className="grid gap-4 sm:grid-cols-2">
               <a
                 href="tel:+905469064334"
-                className="rounded-[24px] bg-white/88 px-5 py-5 text-[var(--dream-dark)] shadow-[0_16px_40px_rgba(95,89,108,0.12)] transition-transform duration-300 hover:-translate-y-1"
+                className="rounded-[24px] bg-white/[0.88] px-5 py-5 text-[var(--dream-dark)] shadow-[0_16px_40px_rgba(95,89,108,0.12)] transition-transform duration-300 hover:-translate-y-1"
               >
                 <FiPhone className="h-5 w-5 text-[var(--lale-gold)]" />
                 <p className="mt-4 text-xs tracking-[0.14em] text-[var(--lale-gold)]">TELEFON</p>
@@ -46,7 +46,7 @@ const Contact = () => {
                 href="https://www.instagram.com/blackstarbeautyy"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-[24px] bg-white/88 px-5 py-5 text-[var(--dream-dark)] shadow-[0_16px_40px_rgba(95,89,108,0.12)] transition-transform duration-300 hover:-translate-y-1"
+                className="rounded-[24px] bg-white/[0.88] px-5 py-5 text-[var(--dream-dark)] shadow-[0_16px_40px_rgba(95,89,108,0.12)] transition-transform duration-300 hover:-translate-y-1"
               >
                 <FiInstagram className="h-5 w-5 text-[var(--lale-gold)]" />
                 <p className="mt-4 text-xs tracking-[0.14em] text-[var(--lale-gold)]">INSTAGRAM</p>
@@ -57,7 +57,7 @@ const Contact = () => {
         </div>
 
         <div className="mb-14 grid grid-cols-1 gap-6 md:grid-cols-3">
-          <div className="rounded-[28px] border border-[rgba(223,167,69,0.16)] bg-white/88 p-7 text-center shadow-[0_18px_50px_rgba(95,89,108,0.08)]">
+          <div className="rounded-[28px] border border-[rgba(223,167,69,0.16)] bg-white/[0.88] p-7 text-center shadow-[0_18px_50px_rgba(95,89,108,0.08)]">
             <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-[rgba(223,167,69,0.12)] text-[var(--lale-gold)] shadow-inner">
               <FiPhone className="h-7 w-7" />
             </div>
@@ -68,7 +68,7 @@ const Contact = () => {
             <p className="mt-3 text-sm text-[var(--dream-text)]">Randevu ve bilgi için hemen ulaşın</p>
           </div>
 
-          <div className="rounded-[28px] border border-[rgba(223,167,69,0.16)] bg-white/88 p-7 text-center shadow-[0_18px_50px_rgba(95,89,108,0.08)]">
+          <div className="rounded-[28px] border border-[rgba(223,167,69,0.16)] bg-white/[0.88] p-7 text-center shadow-[0_18px_50px_rgba(95,89,108,0.08)]">
             <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-[rgba(223,167,69,0.12)] text-[var(--lale-gold)] shadow-inner">
               <FiInstagram className="h-7 w-7" />
             </div>
@@ -84,7 +84,7 @@ const Contact = () => {
             <p className="mt-3 text-sm text-[var(--dream-text)]">Güncel paylaşımlar ve hızlı iletişim</p>
           </div>
 
-          <div className="rounded-[28px] border border-[rgba(223,167,69,0.16)] bg-white/88 p-7 text-center shadow-[0_18px_50px_rgba(95,89,108,0.08)]">
+          <div className="rounded-[28px] border border-[rgba(223,167,69,0.16)] bg-white/[0.88] p-7 text-center shadow-[0_18px_50px_rgba(95,89,108,0.08)]">
             <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-[rgba(223,167,69,0.12)] text-[var(--lale-gold)] shadow-inner">
               <FiMapPin className="h-7 w-7" />
             </div>
@@ -95,7 +95,7 @@ const Contact = () => {
         </div>
 
         <div className="text-center">
-          <div className="rounded-[30px] border border-[rgba(223,167,69,0.16)] bg-white/88 p-8 shadow-[0_18px_50px_rgba(95,89,108,0.08)]">
+          <div className="rounded-[30px] border border-[rgba(223,167,69,0.16)] bg-white/[0.88] p-8 shadow-[0_18px_50px_rgba(95,89,108,0.08)]">
             <h3 className="mb-4 text-xl font-serif text-[var(--dream-dark)]">Detaylı İletişim Formu</h3>
             <p className="mx-auto mb-6 max-w-2xl leading-7 text-[var(--dream-text)]">
               Beklentilerinizi bizimle paylaşın, size uygun bakım ve randevu

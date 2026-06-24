@@ -101,7 +101,7 @@ const Gallery = () => {
           {galleryItems.map((item) => (
             <div
               key={item.id}
-              className="group relative overflow-hidden rounded-[30px] border border-[rgba(223,167,69,0.16)] bg-white/88 shadow-[0_20px_60px_rgba(95,89,108,0.10)] transition-all duration-700 hover:-translate-y-2 hover:shadow-[0_30px_70px_rgba(95,89,108,0.16)]"
+              className="group relative overflow-hidden rounded-[30px] border border-[rgba(223,167,69,0.16)] bg-white/[0.88] shadow-[0_20px_60px_rgba(95,89,108,0.10)] transition-all duration-700 hover:-translate-y-2 hover:shadow-[0_30px_70px_rgba(95,89,108,0.16)]"
             >
               <div className="relative h-[340px] overflow-hidden">
                 {item.imageUrl ? (
@@ -119,7 +119,7 @@ const Gallery = () => {
                 )}
 
                 <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(95,89,108,0.04),rgba(95,89,108,0.42))]" />
-                <div className="absolute left-6 top-6 rounded-full border border-[rgba(223,167,69,0.24)] bg-white/84 px-4 py-2 text-xs font-medium tracking-[0.14em] text-[var(--dream-dark)] backdrop-blur">
+                <div className="absolute left-6 top-6 rounded-full border border-[rgba(223,167,69,0.24)] bg-white/[0.84] px-4 py-2 text-xs font-medium tracking-[0.14em] text-[var(--dream-dark)] backdrop-blur">
                   {getCategoryName(item.categoryId)}
                 </div>
               </div>

@@ -124,7 +124,7 @@ const Hero = () => {
 
               <div className="dream-float absolute inset-x-0 bottom-0 mx-auto h-[500px] max-w-[540px] overflow-hidden rounded-t-[280px] bg-[#eadfd6] lg:h-[650px]">
                 <Image
-                  src="/banner/blackstar-home-hero-v2.png"
+                  src="/banner/hero_image.png"
                   alt="Blackstar Beauty Center ana sayfa görseli"
                   fill
                   priority

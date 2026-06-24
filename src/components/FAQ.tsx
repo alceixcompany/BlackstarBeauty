@@ -65,7 +65,7 @@ const FAQ = () => {
             return (
               <div
                 key={faq.question}
-                className={`overflow-hidden rounded-[26px] border bg-white/88 shadow-[0_18px_50px_rgba(95,89,108,0.10)] transition-all duration-300 ${
+                className={`overflow-hidden rounded-[26px] border bg-white/[0.88] shadow-[0_18px_50px_rgba(95,89,108,0.10)] transition-all duration-300 ${
                   isActive ? 'border-[rgba(223,167,69,0.48)]' : 'border-[rgba(223,167,69,0.18)]'
                 }`}
               >
