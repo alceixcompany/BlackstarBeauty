@@ -112,42 +112,6 @@ const servicesData = {
       '/Lale_logo.png'
     ]
   },
-  'vucut-bakimi': {
-    id: 'vucut-bakimi',
-    title: 'Vücut Bakımı',
-    icon: '💆',
-    description: 'Rahatlama ve yenilenme hissi veren profesyonel vücut bakımı seansları.',
-    heroImage: '/banner/blackstar_brand_services.png',
-    features: [
-      'Rahatlatıcı bakım ritüeli',
-      'Kişisel ihtiyaca uygun uygulama',
-      'Toparlanma hissi',
-      'Bütünsel yaklaşım',
-      'Konforlu seans planı',
-      'Düzenli bakım önerileri'
-    ],
-    detailedInfo: {
-      overview: 'Vücut bakımı hizmetimiz, günlük temponun etkilerini azaltmak ve kendinizi daha iyi hissetmenizi desteklemek için planlanır.',
-      whyChoose: [
-        'Sakin ve özenli merkez deneyimi',
-        'İhtiyaca göre şekillenen uygulamalar',
-        'Rahatlatan atmosfer',
-        'Düzenli bakım süreci planlaması',
-        'Misafir memnuniyeti odaklı yaklaşım'
-      ],
-      process: [
-        { step: 1, title: 'İhtiyaç Belirleme', description: 'Beklenti ve odak alanları görüşülür' },
-        { step: 2, title: 'Seans Kurgusu', description: 'Uygulama içeriği size göre belirlenir' },
-        { step: 3, title: 'Bakım Uygulaması', description: 'Konforlu bir seans gerçekleştirilir' },
-        { step: 4, title: 'Devam Planı', description: 'Gerekirse sonraki seans için yönlendirme yapılır' }
-      ]
-    },
-    gallery: [
-      '/banner/blackstar_brand_services.png',
-      '/img/philosophy.png',
-      '/Lale_logo.png'
-    ]
-  },
   'bolgesel-zayiflama': {
     id: 'bolgesel-zayiflama',
     title: 'Bölgesel Zayıflama',

@@ -33,15 +33,6 @@ const services = [
     image: '/hizmetler/kas-ve-kirpik.png',
   },
   {
-    slug: 'vucut-bakimi',
-    icon: FiHeart,
-    title: 'Vücut Bakımı',
-    description:
-      'Rahatlama, toparlanma ve yenilenme hissi veren profesyonel bakımlarla kendinize ayırdığınız zamanı özel hale getiriyoruz.',
-    highlights: ['Rahatlatıcı deneyim', 'Bütünsel yaklaşım', 'Kişisel seans planı'],
-    image: '/hizmetler/vucut-bakimi.png',
-  },
-  {
     slug: 'bolgesel-zayiflama',
     icon: FiSun,
     title: 'Bölgesel Zayıflama',

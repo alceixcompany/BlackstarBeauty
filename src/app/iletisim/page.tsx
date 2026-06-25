@@ -178,7 +178,6 @@ const ContactPage = () => {
                             <option value="cilt-bakimi" className="bg-[#2c2738] text-[var(--lale-ivory)]">Cilt Bakımı</option>
                             <option value="lazer-epilasyon" className="bg-[#2c2738] text-[var(--lale-ivory)]">Lazer Epilasyon</option>
                             <option value="kas-kirpik" className="bg-[#2c2738] text-[var(--lale-ivory)]">Kaş ve Kirpik</option>
-                            <option value="vucut-bakimi" className="bg-[#2c2738] text-[var(--lale-ivory)]">Vücut Bakımı</option>
                             <option value="bolgesel-zayiflama" className="bg-[#2c2738] text-[var(--lale-ivory)]">Bölgesel Zayıflama</option>
                             <option value="ipek-kirpik" className="bg-[#2c2738] text-[var(--lale-ivory)]">İpek Kirpik</option>
                             <option value="protez-tirnak" className="bg-[#2c2738] text-[var(--lale-ivory)]">Protez Tırnak</option>

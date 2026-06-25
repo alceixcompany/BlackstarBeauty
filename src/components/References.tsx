@@ -37,7 +37,7 @@ const reviews = [
   },
   {
     name: 'Gizem Y.',
-    service: 'Vücut Bakımı',
+    service: 'Cilt Bakımı',
     location: 'Üsküdar',
     rating: 5,
     time: '5 gün önce',

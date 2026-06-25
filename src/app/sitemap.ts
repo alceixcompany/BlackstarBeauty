@@ -69,12 +69,6 @@ const services = [
     priority: 0.8,
   },
   {
-    url: '/hizmetlerimiz/vucut-bakimi',
-    lastModified: new Date(),
-    changeFrequency: 'monthly' as const,
-    priority: 0.8,
-  },
-  {
     url: '/hizmetlerimiz/bolgesel-zayiflama',
     lastModified: new Date(),
     changeFrequency: 'monthly' as const,

@@ -77,7 +77,6 @@ const Footer = () => {
                 <li>Cilt Bakımı</li>
                 <li>Lazer Epilasyon</li>
                 <li>Kaş ve Kirpik</li>
-                <li>Vücut Bakımı</li>
                 <li>Bölgesel Zayıflama</li>
                 <li>İpek Kirpik</li>
                 <li>Protez Tırnak</li>

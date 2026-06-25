@@ -39,7 +39,7 @@ const AboutPage = () => {
                   Blackstar Beauty Center, misafirlerine kendini özel hissettiren bir bakım deneyimi sunma hayaliyle yola çıktı. Kurulduğumuz günden bu yana profesyonel uygulamaları sıcak bir karşılama, yüksek hijyen standartları ve kişisel ilgiyle harmanlıyoruz.
                 </p>
                 <p>
-                  Bugün uzman kadromuzla cilt bakımı, lazer epilasyon, kaş-kirpik ve vücut bakımı alanlarında kişiye özel çözümler sunuyoruz. Her randevuda doğal sonuç, konforlu süreç ve sürdürülebilir memnuniyet odağımızı koruyoruz.
+                  Bugün uzman kadromuzla cilt bakımı, lazer epilasyon ve kaş-kirpik alanlarında kişiye özel çözümler sunuyoruz. Her randevuda doğal sonuç, konforlu süreç ve sürdürülebilir memnuniyet odağımızı koruyoruz.
                 </p>
               </div>
 
