@@ -99,12 +99,6 @@ const services = [
     priority: 0.8,
   },
   {
-    url: '/hizmetlerimiz/masaj',
-    lastModified: new Date(),
-    changeFrequency: 'monthly' as const,
-    priority: 0.8,
-  },
-  {
     url: '/hizmetlerimiz/kalici-makyaj',
     lastModified: new Date(),
     changeFrequency: 'monthly' as const,

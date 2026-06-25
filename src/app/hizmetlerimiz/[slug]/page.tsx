@@ -292,42 +292,6 @@ const servicesData = {
       '/Lale_logo.png'
     ]
   },
-  'masaj': {
-    id: 'masaj',
-    title: 'Masaj',
-    icon: '💆',
-    description: 'Bedensel rahatlama ve zihinsel yenilenme hissi sunan profesyonel masaj seansları.',
-    heroImage: '/banner/blackstar_brand_services.png',
-    features: [
-      'Rahatlatıcı seans akışı',
-      'Kas gevşetici etki',
-      'Sakin atmosfer',
-      'Kişisel ihtiyaç odağı',
-      'Yenilenme hissi',
-      'Düzenli seans önerileri'
-    ],
-    detailedInfo: {
-      overview: 'Masaj hizmetimiz, yoğun günlük temponun etkilerini azaltmak ve bedeninizi rahatlatmak için kişiye özel planlanır.',
-      whyChoose: [
-        'Sakin ve huzurlu merkez deneyimi',
-        'İhtiyaca göre uyarlanan seans',
-        'Rahatlatıcı uygulama akışı',
-        'Konfor odaklı yaklaşım',
-        'Bedensel yenilenme hissi'
-      ],
-      process: [
-        { step: 1, title: 'İhtiyaç Analizi', description: 'Odak alanlar ve beklentiler konuşulur' },
-        { step: 2, title: 'Seans Planı', description: 'Uygun masaj akışı belirlenir' },
-        { step: 3, title: 'Masaj Uygulaması', description: 'Konforlu bir seans gerçekleştirilir' },
-        { step: 4, title: 'Sonrası Öneriler', description: 'Rahatlamayı destekleyen yönlendirmeler paylaşılır' }
-      ]
-    },
-    gallery: [
-      '/banner/blackstar_brand_services.png',
-      '/img/philosophy.png',
-      '/Lale_logo.png'
-    ]
-  },
   'kalici-makyaj': {
     id: 'kalici-makyaj',
     title: 'Kalıcı Makyaj',

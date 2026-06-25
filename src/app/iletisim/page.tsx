@@ -183,7 +183,6 @@ const ContactPage = () => {
                             <option value="ipek-kirpik" className="bg-[#2c2738] text-[var(--lale-ivory)]">İpek Kirpik</option>
                             <option value="protez-tirnak" className="bg-[#2c2738] text-[var(--lale-ivory)]">Protez Tırnak</option>
                             <option value="leke-bakimi" className="bg-[#2c2738] text-[var(--lale-ivory)]">Leke Bakımı</option>
-                            <option value="masaj" className="bg-[#2c2738] text-[var(--lale-ivory)]">Masaj</option>
                             <option value="kalici-makyaj" className="bg-[#2c2738] text-[var(--lale-ivory)]">Kalıcı Makyaj</option>
                             <option value="hydrafacial" className="bg-[#2c2738] text-[var(--lale-ivory)]">Hydrafacial</option>
                             <option value="akne-bakimi" className="bg-[#2c2738] text-[var(--lale-ivory)]">Akne Bakımı</option>
@@ -309,7 +308,7 @@ const ContactPage = () => {
           <p className="text-[rgba(251,250,246,0.68)] text-lg mb-12 max-w-xl mx-auto">Güzellik ipuçları, yeni uygulamalar ve kampanyalarımızdan ilk siz haberdar olun.</p>
           
           <a 
-            href="https://www.instagram.com/blackstarbeautyy" 
+            href="https://www.instagram.com/blackstarbeautyy/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center rounded-full bg-[var(--lale-gold)] hover:bg-[var(--lale-gold-soft)] px-8 py-4 text-sm font-bold tracking-[0.15em] text-[#2c2738] shadow-[0_16px_34px_rgba(212,175,55,0.2)] transition-all duration-300 hover:scale-[1.02] active:scale-[0.98]"

@@ -43,7 +43,7 @@ const Contact = () => {
               </a>
 
               <a
-                href="https://www.instagram.com/blackstarbeautyy"
+                href="https://www.instagram.com/blackstarbeautyy/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="rounded-[24px] bg-white/[0.88] px-5 py-5 text-[var(--dream-dark)] shadow-[0_16px_40px_rgba(95,89,108,0.12)] transition-transform duration-300 hover:-translate-y-1"
@@ -74,7 +74,7 @@ const Contact = () => {
             </div>
             <h3 className="mb-3 text-base font-semibold text-[var(--dream-dark)]">Instagram</h3>
             <a
-              href="https://www.instagram.com/blackstarbeautyy"
+              href="https://www.instagram.com/blackstarbeautyy/"
               target="_blank"
               rel="noopener noreferrer"
               className="break-all text-base font-medium text-[var(--lale-gold)] transition-colors hover:text-[var(--lale-gold-soft)]"

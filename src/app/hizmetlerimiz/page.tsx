@@ -78,15 +78,6 @@ const services = [
     image: '/hizmetler/leke-bakimi.png',
   },
   {
-    slug: 'masaj',
-    icon: FiHeart,
-    title: 'Masaj',
-    description:
-      'Yoğun temponuzu hafifleten, gevşeme ve yenilenme hissi sunan rahatlatıcı masaj seansları planlıyoruz.',
-    highlights: ['Rahatlatıcı deneyim', 'Kas gevşetici etki', 'Sakin atmosfer'],
-    image: '/hizmetler/masaj.png',
-  },
-  {
     slug: 'kalici-makyaj',
     icon: FiFeather,
     title: 'Kalıcı Makyaj',

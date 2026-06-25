@@ -35,7 +35,7 @@ const Footer = () => {
 
               <div className="mt-6 flex items-center gap-3">
                 <a
-                  href="https://www.instagram.com/blackstarbeautyy"
+                  href="https://www.instagram.com/blackstarbeautyy/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex h-10 w-10 items-center justify-center rounded-full border border-[rgba(223,167,69,0.24)] bg-white/[0.88] text-[var(--lale-gold)] transition-colors hover:bg-[rgba(223,167,69,0.10)]"
@@ -51,7 +51,7 @@ const Footer = () => {
                   <FiPhone className="h-4 w-4" />
                 </a>
                 <a
-                  href="https://www.instagram.com/blackstarbeautyy"
+                  href="https://www.instagram.com/blackstarbeautyy/"
                   className="flex h-10 w-10 items-center justify-center rounded-full border border-[rgba(223,167,69,0.24)] bg-white/[0.88] text-[var(--lale-gold)] transition-colors hover:bg-[rgba(223,167,69,0.10)]"
                   title="Instagram"
                 >
@@ -82,7 +82,6 @@ const Footer = () => {
                 <li>İpek Kirpik</li>
                 <li>Protez Tırnak</li>
                 <li>Leke Bakımı</li>
-                <li>Masaj</li>
                 <li>Kalıcı Makyaj</li>
                 <li>Hydrafacial</li>
                 <li>Akne Bakımı</li>
@@ -105,7 +104,7 @@ const Footer = () => {
                 <li className="flex items-center gap-3">
                   <FiInstagram className="h-4 w-4 text-[var(--lale-gold)]" />
                   <a
-                    href="https://www.instagram.com/blackstarbeautyy"
+                    href="https://www.instagram.com/blackstarbeautyy/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="transition-colors hover:text-[var(--lale-gold)]"
