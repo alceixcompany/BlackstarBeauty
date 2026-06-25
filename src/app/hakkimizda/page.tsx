@@ -6,34 +6,6 @@ import { motion } from 'framer-motion';
 import { FiTarget, FiEye, FiCheckCircle, FiHeart, FiShield, FiClock } from 'react-icons/fi';
 import PageHero from '@/components/PageHero';
 
-const awards = [
-  {
-    year: '2021',
-    title: '4. Türk Azerbaycan Kardeşlik Ödülü',
-    subtitle: 'En İyi Kozmetik Uzmanı',
-  },
-  {
-    year: '2022',
-    title: 'Altın Melek Ödülü Türkiye',
-    subtitle: 'Yılın En Başarılı Güzellik Salonu',
-  },
-  {
-    year: '2023',
-    title: 'Gold Face Azerbaycam',
-    subtitle: 'Yılın En İyi Dermatoloğu',
-  },
-  {
-    year: '2024',
-    title: 'Diamont of Ozbekistan',
-    subtitle: 'Yılın En İyi Dermatoloğu',
-  },
-  {
-    year: '2025',
-    title: 'Uluslararası Balıkesir Sağlık Bilimleri Akademik Araştırma Kongresi - Türkiye',
-    subtitle: '',
-  },
-];
-
 const AboutPage = () => {
   return (
     <div className="page-flow min-h-screen bg-[var(--lale-emerald-deep)]">
@@ -108,89 +80,60 @@ const AboutPage = () => {
         </div>
       </section>
 
-      <section className="lale-dark-section py-24 relative">
+      <section className="lale-dark-section py-24 relative overflow-hidden">
+        {/* Soft background glows */}
+        <div className="absolute top-1/4 left-1/4 h-72 w-72 rounded-full bg-[radial-gradient(circle,rgba(223,167,69,0.04)_0%,transparent_70%)] blur-3xl pointer-events-none" />
+        <div className="absolute bottom-1/4 right-1/4 h-72 w-72 rounded-full bg-[radial-gradient(circle,rgba(223,167,69,0.04)_0%,transparent_70%)] blur-3xl pointer-events-none" />
+
         <div className="mx-auto max-w-7xl px-5 sm:px-7 lg:px-10">
-          <div className="relative overflow-hidden rounded-[32px] border border-[rgba(212,175,55,0.18)] bg-[linear-gradient(135deg,rgba(7,37,33,0.98)_0%,rgba(8,49,42,0.94)_55%,rgba(10,65,55,0.88)_100%)] px-6 py-16 shadow-[0_30px_80px_rgba(0,0,0,0.22)] sm:px-10 lg:px-14">
-            <div className="absolute -left-24 bottom-0 h-64 w-64 rounded-full bg-[radial-gradient(circle,rgba(212,175,55,0.14)_0%,rgba(212,175,55,0)_68%)] pointer-events-none" />
-            <div className="absolute -right-20 top-0 h-56 w-56 rounded-full bg-[radial-gradient(circle,rgba(15,99,81,0.32)_0%,rgba(15,99,81,0)_70%)] pointer-events-none" />
-
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+            
+            {/* Misyonumuz */}
             <motion.div
-              initial={{ opacity: 0, y: 24 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.7 }}
-              className="relative"
+              whileHover={{ y: -8 }}
+              transition={{ duration: 0.3 }}
+              className="relative p-10 sm:p-12 rounded-[32px] border border-[rgba(223,167,69,0.18)] bg-white/[0.88] shadow-[0_20px_50px_rgba(95,89,108,0.06)] hover:border-[var(--lale-gold)]/60 hover:shadow-[0_20px_50px_rgba(223,167,69,0.12)] transition-all duration-300 overflow-hidden group"
             >
-              <div className="text-center mb-14">
-                <p className="text-sm tracking-[0.35em] text-[rgba(251,250,246,0.74)] uppercase mb-4">Uluslararası</p>
-                <h2 className="font-serif text-4xl sm:text-5xl lg:text-6xl text-[var(--lale-gold)] mb-5">
-                  Ödüllerimiz
-                </h2>
-                <div className="mx-auto h-px w-40 bg-[linear-gradient(90deg,transparent,rgba(212,175,55,0.85),transparent)]" />
+              <div className="flex flex-col sm:flex-row sm:items-center gap-6 mb-8">
+                <div className="w-14 h-14 bg-[rgba(223,167,69,0.08)] rounded-2xl flex items-center justify-center text-[var(--lale-gold)] border border-[rgba(223,167,69,0.18)] shadow-sm group-hover:scale-110 transition-transform">
+                  <FiTarget className="w-6 h-6" />
+                </div>
+                <div>
+                  <span className="text-xs uppercase tracking-[0.25em] text-[var(--lale-gold)] font-bold">Hedeflerimiz</span>
+                  <h3 className="font-serif text-3xl text-[var(--dream-dark)] mt-1 font-normal">Misyonumuz</h3>
+                </div>
               </div>
-
-              <div className="space-y-8">
-                {awards.map((award, index) => (
-                  <motion.div
-                    key={award.year}
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.55, delay: index * 0.06 }}
-                    className="grid grid-cols-1 gap-5 rounded-[28px] border border-[rgba(212,175,55,0.12)] bg-[rgba(251,250,246,0.03)] p-6 sm:grid-cols-[140px_1fr] sm:items-center sm:gap-8 sm:p-8"
-                  >
-                    <div className="flex items-center justify-center">
-                      <div className="flex h-24 w-24 items-center justify-center rounded-full border border-[rgba(212,175,55,0.34)] bg-[rgba(212,175,55,0.06)] text-3xl font-serif text-[var(--lale-gold)] shadow-inner shadow-[rgba(212,175,55,0.1)]">
-                        {award.year}
-                      </div>
-                    </div>
-
-                    <div className="text-center sm:text-left">
-                      <h3 className="font-serif text-2xl text-[var(--lale-ivory)] leading-snug">
-                        {award.title}
-                      </h3>
-                      {award.subtitle && (
-                        <p className="mt-3 text-lg text-[rgba(251,250,246,0.76)] uppercase tracking-[0.08em]">
-                          {award.subtitle}
-                        </p>
-                      )}
-                    </div>
-                  </motion.div>
-                ))}
-              </div>
-            </motion.div>
-          </div>
-        </div>
-      </section>
-
-      <section className="lale-dark-section py-24 relative">
-        <div className="mx-auto max-w-7xl px-5 sm:px-7 lg:px-10">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <motion.div
-              whileHover={{ y: -5 }}
-              className="p-10 sm:p-14 rounded-[28px] lale-card-dark text-center"
-            >
-              <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-8 text-white">
-                <FiTarget className="w-8 h-8" />
-              </div>
-              <h3 className="font-serif text-3xl text-[var(--lale-ivory)] mb-6">Misyonumuz</h3>
-              <p className="text-[rgba(251,250,246,0.68)] leading-relaxed text-[17px]">
+              
+              <div className="h-px w-16 bg-[linear-gradient(90deg,var(--lale-gold),transparent)] mb-6" />
+              
+              <p className="text-[var(--dream-text)] leading-relaxed text-[16px] sm:text-[17px]">
                 Hijyen, güven ve kaliteyi ön planda tutarak kişiye özel bir bakım kültürü oluşturmak. Uzman kadromuzla her misafirin ihtiyacını doğru analiz edip, en doğal ve etkili sonuçları sunmak temel görevimizdir.
               </p>
             </motion.div>
 
+            {/* Vizyonumuz */}
             <motion.div
-              whileHover={{ y: -5 }}
-              className="p-10 sm:p-14 rounded-[28px] lale-card-dark text-center"
+              whileHover={{ y: -8 }}
+              transition={{ duration: 0.3 }}
+              className="relative p-10 sm:p-12 rounded-[32px] border border-[rgba(223,167,69,0.18)] bg-white/[0.88] shadow-[0_20px_50px_rgba(95,89,108,0.06)] hover:border-[var(--lale-gold)]/60 hover:shadow-[0_20px_50px_rgba(223,167,69,0.12)] transition-all duration-300 overflow-hidden group"
             >
-              <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-8 text-white">
-                <FiEye className="w-8 h-8" />
+              <div className="flex flex-col sm:flex-row sm:items-center gap-6 mb-8">
+                <div className="w-14 h-14 bg-[rgba(223,167,69,0.08)] rounded-2xl flex items-center justify-center text-[var(--lale-gold)] border border-[rgba(223,167,69,0.18)] shadow-sm group-hover:scale-110 transition-transform">
+                  <FiEye className="w-6 h-6" />
+                </div>
+                <div>
+                  <span className="text-xs uppercase tracking-[0.25em] text-[var(--lale-gold)] font-bold">Geleceğimiz</span>
+                  <h3 className="font-serif text-3xl text-[var(--dream-dark)] mt-1 font-normal">Vizyonumuz</h3>
+                </div>
               </div>
-              <h3 className="font-serif text-3xl text-[var(--lale-ivory)] mb-6">Vizyonumuz</h3>
-              <p className="text-[rgba(251,250,246,0.68)] leading-relaxed text-[17px]">
+              
+              <div className="h-px w-16 bg-[linear-gradient(90deg,var(--lale-gold),transparent)] mb-6" />
+              
+              <p className="text-[var(--dream-text)] leading-relaxed text-[16px] sm:text-[17px]">
                 Güzellik ve kişisel bakım alanında zarafetiyle ilham veren, yenilikçi uygulamaları sıcak hizmet anlayışıyla birleştiren ve misafirlerinin ilk tercihi olan lider bir marka haline gelmek.
               </p>
             </motion.div>
+
           </div>
         </div>
       </section>
