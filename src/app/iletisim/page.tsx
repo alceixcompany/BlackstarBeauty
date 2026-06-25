@@ -260,10 +260,10 @@ const ContactPage = () => {
                 
                 <div className="space-y-8">
                   {[
-                    { icon: FiPhone, title: "Telefon", value: "0546 104 59 00", sub: "Randevu & Bilgi Hattı" },
+                    { icon: FiPhone, title: "Telefon", value: "+90 546 906 43 34", sub: "Randevu & Bilgi Hattı" },
                     { icon: FiMail, title: "E-posta", value: "info@blackstarbeauty.com", sub: "7/24 Destek" },
-                    { icon: FiMapPin, title: "Adres", value: "Şirinevler Mahallesi Meriç Sokak No: 18 Kat: 4 Daire: 4, Bahçelievler / İstanbul", sub: "Akbank'ın üstü" },
-                    { icon: FiClock, title: "Çalışma Saatleri", value: "Randevu İle Hizmet Verilmektedir", sub: "Pazartesi - Cumartesi" }
+                    { icon: FiMapPin, title: "Adres", value: "Nine Hatun, 107. Sk. no : 7/A, 34220", sub: "Esenler / İstanbul, Türkiye" },
+                    { icon: FiClock, title: "Çalışma Saatleri", value: "09:00 - 20:00", sub: "Pazartesi - Cumartesi (Randevu İle)" }
                   ].map((item, i) => (
                     <div key={i} className="flex gap-6 items-start group">
                       <div className="w-12 h-12 bg-[rgba(212,175,55,0.10)] rounded-2xl flex items-center justify-center text-[var(--lale-gold)] shadow-sm border border-[rgba(212,175,55,0.18)] flex-shrink-0 group-hover:bg-[var(--lale-gold)] group-hover:text-[var(--lale-emerald-deep)] transition-all duration-300">
@@ -287,7 +287,7 @@ const ContactPage = () => {
                 className="relative aspect-square sm:aspect-video lg:aspect-auto lg:h-[350px] rounded-[32px] overflow-hidden border border-[rgba(212,175,55,0.18)] shadow-lg"
               >
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3184.0400509927945!2d28.842329076039675!3d40.99229797135275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDU5JzMyLjMiTiAyOMKwNTAnNDEuNyJF!5e1!3m2!1str!2saz!4v1778048676704!5m2!1str!2saz"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.2045864119853!2d28.880884!3d41.036438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDAyJzExLjIiTiAyOMKwNTInNTEuMiJF!5e0!3m2!1str!2str!4v1655000000000!5m2!1str!2str"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
@@ -309,7 +309,7 @@ const ContactPage = () => {
           <p className="text-[rgba(251,250,246,0.68)] text-lg mb-12 max-w-xl mx-auto">Güzellik ipuçları, yeni uygulamalar ve kampanyalarımızdan ilk siz haberdar olun.</p>
           
           <a 
-            href="https://instagram.com/blackstarbeauty" 
+            href="https://www.instagram.com/blackstarbeautyy" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center rounded-full bg-[var(--lale-gold)] hover:bg-[var(--lale-gold-soft)] px-8 py-4 text-sm font-bold tracking-[0.15em] text-[#2c2738] shadow-[0_16px_34px_rgba(212,175,55,0.2)] transition-all duration-300 hover:scale-[1.02] active:scale-[0.98]"

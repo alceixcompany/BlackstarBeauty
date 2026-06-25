@@ -94,7 +94,7 @@ const Footer = () => {
               <ul className="mt-5 space-y-4 text-sm text-[var(--dream-text)]">
                 <li className="flex items-start gap-3">
                   <FiMapPin className="mt-1 h-4 w-4 text-[var(--lale-gold)]" />
-                  <span>Esenler / İstanbul</span>
+                  <span>Nine Hatun, Esenler / İstanbul</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <FiPhone className="h-4 w-4 text-[var(--lale-gold)]" />

@@ -184,7 +184,7 @@ const AboutPage = () => {
                 İLETİŞİME GEÇİN
               </Link>
               <a
-                href="tel:+905461045900"
+                href="tel:+905469064334"
                 className="lale-outline-button"
               >
                 HEMEN ARA

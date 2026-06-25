@@ -89,7 +89,7 @@ const Contact = () => {
               <FiMapPin className="h-7 w-7" />
             </div>
             <h3 className="mb-3 text-base font-semibold text-[var(--dream-dark)]">Adres</h3>
-            <p className="text-base text-[var(--dream-dark)]">Esenler / İstanbul</p>
+            <p className="text-base text-[var(--dream-dark)]">Nine Hatun, Esenler / İstanbul</p>
             <p className="mt-3 text-sm text-[var(--dream-text)]">Randevu öncesi konum bilgisi için bize ulaşın</p>
           </div>
         </div>

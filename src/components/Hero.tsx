@@ -154,7 +154,7 @@ const Hero = () => {
         <div className="grid gap-5 rounded-b-[30px] bg-[var(--lale-cream)] px-2 py-8 md:grid-cols-3">
           {[
             { icon: FiMail, title: 'İletişim', value: '@blackstarbeautyy' },
-            { icon: FiMapPin, title: 'Konum', value: 'Esenler / İstanbul' },
+            { icon: FiMapPin, title: 'Konum', value: 'Nine Hatun, Esenler / İstanbul' },
             { icon: FiPhone, title: 'Randevu', value: '0546 906 4334' },
           ].map((detail, index) => {
             const Icon = detail.icon;
