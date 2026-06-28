@@ -113,7 +113,7 @@ const services = [
 ]
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = 'https://www.blackstarbeauty.com'
+  const baseUrl = 'https://blackstarbeautyy.com'
   
   try {
     // Firebase'den dinamik verileri al

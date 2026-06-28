@@ -24,7 +24,7 @@ const dancingScript = Dancing_Script({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.blackstarbeauty.com"),
+  metadataBase: new URL("https://blackstarbeautyy.com"),
   title: "Blackstar Beauty Center | Profesyonel Güzellik ve Cilt Bakımı",
   description: "Blackstar Beauty Center'da lazer epilasyon, hydrafacial, cilt bakımı ve kalıcı makyaj hizmetlerini modern, hijyenik ve şık bir merkez deneyimiyle keşfedin.",
   keywords: [
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   publisher: "Blackstar Beauty Center",
   robots: "index, follow",
   alternates: {
-    canonical: "https://www.blackstarbeauty.com"
+    canonical: "https://blackstarbeautyy.com"
   },
   category: "beauty",
   classification: "Business",
@@ -80,7 +80,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "tr_TR",
     siteName: "Blackstar Beauty Center",
-    url: "https://www.blackstarbeauty.com",
+    url: "https://blackstarbeautyy.com",
     images: [
       {
         url: '/blackstar-logo.svg',

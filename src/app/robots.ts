@@ -12,6 +12,6 @@ export default function robots(): MetadataRoute.Robots {
         '/static/',
       ],
     },
-    sitemap: 'https://www.blackstarbeauty.com/sitemap.xml',
+    sitemap: 'https://blackstarbeautyy.com/sitemap.xml',
   }
 }

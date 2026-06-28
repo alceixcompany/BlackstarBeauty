@@ -4,12 +4,12 @@ export const metadata: Metadata = {
   title: 'Galeri | Blackstar Beauty Center',
   description: 'Blackstar Beauty Center salonumuzdan kareler, uzman uygulamalarımız ve misafirlerimizin değişim hikayelerini galerimizde inceleyin.',
   alternates: {
-    canonical: 'https://www.blackstarbeauty.com/galeri',
+    canonical: 'https://blackstarbeautyy.com/galeri',
   },
   openGraph: {
     title: 'Galeri | Blackstar Beauty Center',
     description: 'Blackstar Beauty Center salonumuzdan kareler, uzman uygulamalarımız ve değişim hikayeleri.',
-    url: 'https://www.blackstarbeauty.com/galeri',
+    url: 'https://blackstarbeautyy.com/galeri',
     type: 'website',
   },
 };
